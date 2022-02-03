@@ -8,4 +8,4 @@ Using the MechaCar_mpg dataset, I performed multiple linear regression to observ
 
 Based on this analysis, vehicle length and ground clearance are the independent variables that have the most influence on mpg, as well as the Intercept which means vehicle length and ground clearance may need to be transformed to provide better predictions for this model. 
 
-The R-squared value is 0.72, indicating a decently high positive relationship between the regression line and the dependent variable points. 
+The R-squared value is 0.72 (the slope of the linear regression line), indicating a decently high positive relationship between the regression line and the dependent variable points. 
