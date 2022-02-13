@@ -13,7 +13,7 @@ total_summary <- susp_coil %>% summarize(Avg_PSI=mean(PSI),median_PSI=median(PSI
 
 lot_summary <- susp_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSIe=mean(PSI),median_PSI=median(PSI),variance=var(PSI),StandardDeviation=sd(PSI), .groups = 'keep')
 
-t.test(log10(susp_coil$PSI),mu=mean(log10(lot_summary$Mean_PSIe)))
+t.test(susp_coil$PSI,lot_summary$Mean_PSIe)
 
 ?t.test
 
