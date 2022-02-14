@@ -50,6 +50,14 @@ Lot 3: the p-value (6.857e-05) was small enough to accept that there is a signif
 
 <img width="515" alt="L3" src="https://user-images.githubusercontent.com/90734050/153949744-4c41b2f8-15b1-489d-b452-1f101742655b.png">
 
+## Study Design: MechaCar vs Competition
+
+To further examin how MechaCar compares to other companies, I would look at the dependent variable of Maintenance Cost and look at horsepower as an independent variable. 
+
+My hypothesis would be that a higher horsepower engine would require greater Maintenance Cost. The null hypotehsis would be that there is not a significant difference in maintenace cost between cars with high horsepower and low horsepower, and the alternative hypothesis would be that higher horsepower is associated with a change in maintenance cost. 
+
+After gathering horsepower data and maintenance cost data from MechaCar and their competitor from a specific city (to control for other factors), I would use a simple linear regression model to see if there is in fact a discernable change in maintenance cost as horsepower rises. This would also allow me to see how MechaCar vehicles compare to the competitor based on the slope of the linear regression model. I would also perform a t-test to determine if there is a statistical difference in averages between MechaCar vehicles and their competitor. 
+
 
 
 
