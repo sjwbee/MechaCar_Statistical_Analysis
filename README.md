@@ -30,6 +30,27 @@ The designation for MechaCar suspension coils is that variance should not exceed
 
 The t-tests compare means of Suspension Coil ppsi from the population versus individual lots. 
 
-<img width="581" alt="Screen Shot 2022-02-13 at 11 04 03 AM" src="https://user-images.githubusercontent.com/90734050/153770531-11f84b0d-3070-445e-9ad1-6b8d51739b6e.png">
+<img width="515" alt="script" src="https://user-images.githubusercontent.com/90734050/153948766-9276ba3e-f40f-402b-8717-10395d51c7ac.png">
 
-The p-values associated with these t-tests were all very low at 2.2e-16, indicating the mean of the entire population and the mean of each "Lot" are close enough to 
+The PSI across all manufacturing lots appeared not to be significantly different from the population mean of 1500 with a p-value of 0.06028:
+
+<img width="515" alt="all t test" src="https://user-images.githubusercontent.com/90734050/153948978-2773c755-de42-407a-ba8e-9f498cddb03b.png">
+
+
+When looking at each lot individually:
+Lot 1: the p-value (0.06028) of the t-test showed that there was not a significiant difference between the means
+
+<img width="515" alt="L1" src="https://user-images.githubusercontent.com/90734050/153949191-eaa9c381-57e2-41c5-9f16-9e10eec274bf.png">
+
+Lot 2: the p-value (0.02909) was small enough to accept that there is a significant differnece between the means
+
+<img width="515" alt="L2" src="https://user-images.githubusercontent.com/90734050/153949420-3c8e7109-1764-49ef-af19-f6a8d2c534fc.png">
+
+Lot 3: the p-value (6.857e-05) was small enough to accept that there is a significant difference between the means. 
+
+<img width="515" alt="L3" src="https://user-images.githubusercontent.com/90734050/153949744-4c41b2f8-15b1-489d-b452-1f101742655b.png">
+
+
+
+
+
