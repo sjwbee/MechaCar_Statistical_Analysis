@@ -25,3 +25,11 @@ The total_summary dataframe:
 <img width="558" alt="Screen Shot 2022-02-13 at 9 22 31 AM" src="https://user-images.githubusercontent.com/90734050/153767245-9880e61c-50bf-4708-b50a-5dc06544cc03.png">
 
 The designation for MechaCar suspension coils is that variance should not exceed 100 ppsi, from these dataframes we can see that lots 1 and 2 are within this criteria, while lot 3 exceeds 100 with a variance of 170.3. The total summary shows that overall, the suspension coils are within a range that is acceptable to MechaCar's standards for variance. 
+
+## T-tests on Suspension Coils
+
+The t-tests compare means of Suspension Coil ppsi from the population versus individual lots. 
+
+<img width="581" alt="Screen Shot 2022-02-13 at 11 04 03 AM" src="https://user-images.githubusercontent.com/90734050/153770531-11f84b0d-3070-445e-9ad1-6b8d51739b6e.png">
+
+The p-values associated with these t-tests were all very low at 2.2e-16, indicating the mean of the entire population and the mean of each "Lot" are close enough to 
